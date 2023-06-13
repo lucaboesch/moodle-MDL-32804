@@ -1708,6 +1708,7 @@ function quiz_supports($feature) {
         case FEATURE_USES_QUESTIONS:            return true;
         case FEATURE_PLAGIARISM:                return true;
         case FEATURE_MOD_PURPOSE:               return MOD_PURPOSE_ASSESSMENT;
+        case FEATURE_ADVANCED_GRADING:          return true;
 
         default: return null;
     }
