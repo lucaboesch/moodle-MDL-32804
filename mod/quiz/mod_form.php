@@ -30,6 +30,7 @@ require_once($CFG->dirroot . '/mod/quiz/locallib.php');
 
 use mod_quiz\access_manager;
 use mod_quiz\question\display_options;
+use core_grades\component_gradeitems;
 
 /**
  * Settings form for the quiz module.

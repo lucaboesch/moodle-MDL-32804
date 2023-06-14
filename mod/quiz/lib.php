@@ -1715,6 +1715,18 @@ function quiz_supports($feature) {
 }
 
 /**
+ * Lists all gradable areas for the advanced grading methods framework.
+ *
+ * @return array('string'=>'string') An array with area names as keys and descriptions as values
+ */
+function quiz_grading_areas_list() {
+    return [
+        // TODO;
+        'quiz' => get_string('grade_question', 'quiz'),
+    ];
+}
+
+/**
  * @return array all other caps used in module
  */
 function quiz_get_extra_capabilities() {
